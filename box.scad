@@ -46,14 +46,14 @@ latch_access_length = 12;
 
 /*[OpenReed Logo 参数 | OpenReed Logo Parameters]*/
 logo_ratio = 0.5;
-logo_depth = 0.6;
+logo_depth = 0.01;
 
 /*[显示与导出 | Display and Export]*/
 part = "print"; // [print,body,lid,assembled,exploded,section,fit_test,fit_test_body,fit_test_lid]
 // 装配视图中的滑开距离 | Opening distance for assembly preview
 lid_slide = 0;
 print_gap = 10;
-preview_quality = 64; // [32,64,96]
+preview_quality = 96; // [32,64,96]
 
 /*[内部参数 | Internal Parameters]*/
 outer_length = inner_length + 2*wall_thickness;
